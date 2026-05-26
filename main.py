@@ -4,6 +4,9 @@ from sklearn.metrics import confusion_matrix
 from sklearn.linear_model import LogisticRegression
 from sklearn.neighbors import KNeighborsClassifier
 
+st.title("Yamaaan Faraz YF BTC and GOLD predictor")
+st.text("not 100% but possible it's best because i used KNN and LogReg.")
+
 choose_market = st.selectbox("Choose Market", ["BTC", "GOLD"])
 if choose_market == "BTC":
     choose_time = st.selectbox("Choose Time"
